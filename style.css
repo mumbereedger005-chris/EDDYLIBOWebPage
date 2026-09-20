@@ -5,10 +5,11 @@
 .main{
     width: 100%;
     min-height: 100vh;
+    min-width: 100dvh;
     background-size: cover;
     background-image:url(kankitsi.jpg);
     background-position: center;
-    background-repeat: no-repeat;
+    
 }
 .main::before{
     content: "";
@@ -17,9 +18,9 @@
     background: rgba(0,0,0,0.3);
 }
 .navbar{
-    width: 1200px;
+    width: 900px;
     height: 75px;
-    margin: auto;
+    
 }
 .icon{
     width: 200px;
@@ -54,7 +55,7 @@ ul li{
 ul li a{
     text-decoration: none;
     color: black;
-    font-family: Arial;
+    font-family: Aerial;
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
